@@ -1,0 +1,9 @@
+image: docker:latest
+
+stages:
+  - deploy
+
+deploy_job:
+  stage: deploy
+  script:
+    - git pull
